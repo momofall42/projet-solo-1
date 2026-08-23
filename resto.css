@@ -2,6 +2,34 @@
     margin: 0;padding: 0;
     
 }
+@media (max-width: 768px) {
+  .menu {
+    width: 100%;
+    margin-left: 0;
+    flex-direction: column;
+  }
+  .menu-brunch-1,
+  .menu-brunch-2,
+  .menu-brunch-3 {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  .hp {
+    margin-left: 0;
+    width: auto;
+  }
+  .br1 {
+    margin-left: 15px;
+  }
+  .present-brunch {
+    font-size: 2.2rem;
+  }
+  .accroche {
+    font-size: 1.1rem;
+    line-height: 24px;
+  }
+}
 img {
   max-width: 100%;
   height: auto;
