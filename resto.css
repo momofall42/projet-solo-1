@@ -1,0 +1,175 @@
+*{
+    margin: 0;padding: 0;
+    
+}
+
+ul{
+    list-style-type: none
+}
+header{
+    color: white;
+}
+.descr{
+    height: 30vh;
+    background-image:linear-gradient(rgba(1, 1, 1, 0.523), rgb(26, 22, 22)),
+     url(img/1709772769_evasion-gastronomique-en-region-le-guide-ultime-des-tables-etoilees-a-explorerred.jpg);
+
+}
+a{
+    text-decoration: none;color: white;
+}
+.logo{
+    width: 50px;
+}
+.name{
+    display: flex;flex-direction: row-reverse;justify-content: left;
+}
+.restname{
+    margin-top: 13px;
+}
+
+ nav ul{
+    list-style-type: none;
+    display: flex;margin-top: 13px;
+}
+nav ul li a{
+    text-decoration: none;color: white;
+}
+
+.lnav{
+    display: inline;margin-right: 19px;letter-spacing: 3px;
+}
+.high{
+    display: flex;justify-content: space-around;padding-top: 10px;
+}
+.lnav:hover{
+    background-color: brown;
+}
+
+.slogan{
+    text-align: center;letter-spacing: 5px;padding-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;font-size: 1.6rem;
+}
+.date{
+    text-align: center;padding-top: 20px;
+}
+.reserv{
+   display: inline-block;
+  padding: 14px 40px;
+  border: 1px solid rgb(90, 40, 40);
+  text-decoration: none;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  font-size: 14px;
+  text-transform: uppercase;
+  background: transparent;
+}
+.reserv:hover{
+background-color: brown;
+}
+.price{
+    text-align: center;font-size: 2.5rem;
+    margin-top: 60px; color: #f5e6c8;
+}
+.presentbr{
+    height: 400px;background-color: beige;
+    text-align: center;
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.8)70% ,rgba(0,0,0,0.3),rgba(0,0,0,0.7)),
+    url(img/photo-1504674900247-0877df9cc836.jpg);
+    background-size: cover;
+}
+.present-brunch{
+    font-size: 4.6rem;margin-bottom: 70px;
+    color: #f5e6c8 ;
+}
+.accroche{
+    color: #786012;letter-spacing: 1px;
+    line-height: 30px;font-size: 2rem;
+}
+.img-br1{
+    height: 180px;
+}
+.brunchs{
+    background-color: #251b15;height: fit-content;
+}
+.menu{
+    border-radius: 16px;border: 2px solid transparent;
+    display: flex; margin-bottom: 120px;width: 1200px;margin-left: 100px;
+    overflow: hidden;
+}
+.menu-brunch-1{
+    height: 325px;background-color: rgb(237, 246, 239);
+    width: 1040px;
+}
+.menu-brunch-2{
+    background-color: rgba(39, 47, 77, 0.883);
+    width: 1040px;
+}
+.menu-brunch-3{
+    background-color: black;width: 1040px;
+}
+.list1{
+    list-style-type: none;margin-top: 12px;
+}
+.ing{
+    margin-bottom: 8px;letter-spacing: 0.5px;
+    font-weight: 200;
+    
+}
+.ing2{
+    margin-bottom: 18px;letter-spacing: 0.5px;
+    font-weight: 200;color: white;
+}
+.ing3{
+    margin-bottom: 18px;letter-spacing: 0.5px;
+    font-weight: 200;color: white;
+}
+.br1{
+    display: flex;flex-direction: column;margin-left: 40px;
+}
+
+.br-title1{
+    font-size: 3.4rem;
+    color: rgb(19, 122, 19);font-weight: 900;
+}
+.br-title2{
+    font-size: 3.4rem;
+    color: rgb(97, 105, 179);font-weight: 900;
+}
+.br-title3{
+    font-size: 3.4rem;
+    color: rgb(97, 105, 179);font-weight: 900;
+}
+.br-descr{
+    font-weight: 400;font-size: 1.1rem;
+    margin-top: 17px;margin-bottom: 17px;
+    color: rgb(168, 163, 163);
+}
+.br-descr2{
+    font-weight: 400;font-size: 1.1rem;
+    margin-top: 17px;margin-bottom: 28px;
+    color: rgb(168, 163, 163);
+}
+.br-descr3{
+    font-weight: 400;font-size: 1.1rem;
+    margin-top: 17px;margin-bottom: 28px;
+    color: rgb(168, 163, 163);
+}
+.hp{
+    margin-top: 60px;display: flex;justify-content: center;
+    margin-left: 340px;background-color:rgba(45, 64, 130, 0.883);
+    border: 1px solid transparent;border-radius: 16px;width: 280px;
+    font-size: 22px;padding-top: 7px;padding-bottom: 7px;
+    color: rgb(47, 92, 183);
+}
+.menu-brunch-2{
+    display: flex;flex-direction: row-reverse;
+    height: 458px;
+}
+.menu-brunch-3{
+    display: flex;
+    height: 458px;
+}
+
+
