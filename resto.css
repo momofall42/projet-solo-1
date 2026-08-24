@@ -2,76 +2,74 @@
     margin: 0;padding: 0;
     
 }
-
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-ul{
-    list-style-type: none
-}
 header{
-    color: white;
+    height: 100vh;background-image:linear-gradient(to bottom,rgba(255,255,255,0),rgba(255,255,255,0.27)),
+    url(img/1709772769_evasion-gastronomique-en-region-le-guide-ultime-des-tables-etoilees-a-explorer.jpg);
+    background-size: cover;color: white;
 }
-.descr{
-    height: 30vh;
-    background-image:linear-gradient(rgba(1, 1, 1, 0.523), rgb(26, 22, 22)),
-     url(img/1709772769_evasion-gastronomique-en-region-le-guide-ultime-des-tables-etoilees-a-explorerred.jpg);
 
+ul{
+    list-style-type: none;
 }
 a{
-    text-decoration: none;color: white;
-}
-.logo{
-    width: 50px;
-}
-.name{
-    display: flex;flex-direction: row-reverse;justify-content: left;
-}
-.restname{
-    margin-top: 13px;
-}
-
- nav ul{
-    list-style-type: none;
-    display: flex;margin-top: 13px;
-}
-nav ul li a{
-    text-decoration: none;color: white;
-}
-
-.lnav{
-    display: inline;margin-right: 19px;letter-spacing: 3px;
+text-decoration: none;
 }
 .high{
-    display: flex;justify-content: space-around;padding-top: 10px;
+    display: flex;justify-content: space-between;
 }
-.lnav:hover{
-    background-color: brown;
+.restnamediv{
+    margin-left: 30px;
+    margin-bottom: 340px;font-size: 2rem;
+    margin-top: 16px;
+   
 }
-
+.restname{
+    color: #c9b49b;
+}
+ul{
+    margin-top: 16px;
+}
+li{
+    display: inline;margin-right: 19px;
+    text-transform: uppercase;font-size: 1.3rem;
+    
+}
+.lnav{
+    color: #c9b49b;
+}
 .slogan{
-    text-align: center;letter-spacing: 5px;padding-top: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: italic;font-size: 1.6rem;
+    margin-left: 30px;text-transform: uppercase;
+    font-size: 3.7rem;color: #1e1714;margin-bottom: 30px;
 }
-.date{
-    text-align: center;padding-top: 20px;
+.reservdiv{
+    border: 1px solid transparent;height: 30px;width: 123px;
+    text-align: center;padding-top: 8px;
+    margin-right: 30px;border-radius: 16px;
+    background-color: #c46f15;margin-top: 16px;
 }
 .reserv{
-   display: inline-block;
-  padding: 14px 40px;
-  border: 1px solid rgb(90, 40, 40);
-  text-decoration: none;
-  font-family: sans-serif;
-  letter-spacing: 2px;
-  font-size: 14px;
-  text-transform: uppercase;
-  background: transparent;
+    color: white;text-transform: uppercase;
 }
-.reserv:hover{
-background-color: brown;
+.head-foot{
+    display: flex;
+}
+.reservdiv-2{
+    border: 1px solid transparent;height: 30px;width: 123px;
+    text-align: center;padding-top: 8px;margin-top: 15px;
+    margin-left: 30px;border-radius: 16px;
+    background-color: #c46f15;
+}
+.reserv-2{
+    color: white;
+}
+.vipdiv{
+    border: 1px solid transparent;height: 39px;width: 180px;
+    text-align: center;padding-top: 8px;margin-top: 10px;
+    margin-left: 30px;
+    background-color: gray;
+}
+.vip{
+    color: white;
 }
 .price{
     text-align: center;font-size: 2.5rem;
@@ -104,7 +102,7 @@ background-color: brown;
     overflow: hidden;
 }
 .menu-brunch-1{
-    height: 325px;background-color: rgb(237, 246, 239);
+    height: 460px;background-color: rgb(237, 246, 239);
     width: 1040px;
 }
 .menu-brunch-2{
@@ -135,7 +133,7 @@ background-color: brown;
 }
 
 .br-title1{
-    font-size: 3.4rem;
+    font-size: 3.0rem;
     color: rgb(19, 122, 19);font-weight: 900;
 }
 .br-title2{
@@ -144,7 +142,7 @@ background-color: brown;
 }
 .br-title3{
     font-size: 3.4rem;
-    color: rgb(97, 105, 179);font-weight: 900;
+    color: rgb(76, 77, 82);font-weight: 900;
 }
 .br-descr{
     font-weight: 400;font-size: 1.1rem;
@@ -161,12 +159,26 @@ background-color: brown;
     margin-top: 17px;margin-bottom: 28px;
     color: rgb(168, 163, 163);
 }
-.hp{
+.foot{
+    margin-top: 60px;display: flex;justify-content: center;
+    margin-left: 340px;background-color:rgba(19, 122, 19, 0.883);
+    border: 1px solid transparent;border-radius: 16px;width: 280px;
+    font-size: 22px;padding-top: 7px;padding-bottom: 7px;
+    color: rgb(210, 218, 210);
+}
+.foot1{
     margin-top: 60px;display: flex;justify-content: center;
     margin-left: 340px;background-color:rgba(45, 64, 130, 0.883);
     border: 1px solid transparent;border-radius: 16px;width: 280px;
     font-size: 22px;padding-top: 7px;padding-bottom: 7px;
     color: rgb(47, 92, 183);
+}
+.foot2{
+    margin-top: 60px;display: flex;justify-content: center;
+    margin-left: 315px;background-color:rgba(125, 127, 135, 0.883);
+    border: 1px solid transparent;border-radius: 16px;width: 320px;
+    font-size: 22px;padding-top: 7px;padding-bottom: 7px;
+    color: rgb(0, 0, 0);
 }
 .menu-brunch-2{
     display: flex;flex-direction: row-reverse;
