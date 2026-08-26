@@ -2,10 +2,11 @@
     margin: 0;padding: 0;
     
 }
-header{
+ header{
     height: 100vh;background-image:linear-gradient(to bottom,rgba(255,255,255,0),rgba(255,255,255,0.27)),
     url(img/1709772769_evasion-gastronomique-en-region-le-guide-ultime-des-tables-etoilees-a-explorer.jpg);
     background-size: cover;color: white;
+    margin-top: -55px;
 }
 
 ul{
@@ -16,10 +17,12 @@ text-decoration: none;
 }
 .high{
     display: flex;justify-content: space-between;
+    position: sticky;z-index: 100;top: 0;
+    
 }
 .restnamediv{
     margin-left: 30px;
-    margin-bottom: 340px;font-size: 2rem;
+    font-size: 2rem;
     margin-top: 16px;
    
 }
@@ -29,7 +32,7 @@ text-decoration: none;
 ul{
     margin-top: 16px;
 }
-li{
+.li-head{
     display: inline;margin-right: 19px;
     text-transform: uppercase;font-size: 1.3rem;
     
@@ -39,7 +42,8 @@ li{
 }
 .slogan{
     margin-left: 30px;text-transform: uppercase;
-    font-size: 3.7rem;color: #1e1714;margin-bottom: 30px;
+    font-size: 3.7rem;color: #1e1714;
+    margin-bottom: 30px;padding-top: 390px;
 }
 .reservdiv{
     border: 1px solid transparent;height: 30px;width: 123px;
@@ -76,7 +80,7 @@ li{
     margin-top: 60px; color: #f5e6c8;
 }
 .presentbr{
-    height: 400px;background-color: beige;
+    height: 400px;background-color: rgb(187, 187, 52);
     text-align: center;
     background-image:linear-gradient(to bottom, rgba(0,0,0,0.8)70% ,rgba(0,0,0,0.3),rgba(0,0,0,0.7)),
     url(img/photo-1504674900247-0877df9cc836.jpg);
@@ -94,7 +98,10 @@ li{
     height: 180px;
 }
 .brunchs{
-    background-color: #251b15;height: fit-content;
+    height: fit-content;
+}
+main{
+    background-color: #251b15;
 }
 .menu{
     border-radius: 16px;border: 2px solid transparent;
@@ -116,7 +123,7 @@ li{
     list-style-type: none;margin-top: 12px;
 }
 .ing{
-    margin-bottom: 8px;letter-spacing: 0.5px;
+    margin-bottom: 5px;letter-spacing: 0.5px;
     font-weight: 200;
     
 }
@@ -188,7 +195,79 @@ li{
     display: flex;
     height: 458px;
 }
-
+.deco{
+    display: flex;justify-content: center;
+}
+.fil1{
+   width: 500px;background-color: rgb(147, 111, 27);
+   height: 1px;margin-top: -52px;
+}
+.fil2{
+  width: 500px;background-color: rgb(147, 111, 27);
+   height: 1px;margin-top: -52px;
+}
+.LC{
+    margin-top: -80px;font-size: 3rem;
+    text-align: center;font-family:   sans-serif;
+}
+.presentpd{
+    color: #f5e6c8;margin-bottom: 50px;
+    font-size: 2rem;margin-left: 33px;
+    
+}
+.first-col{
+    display: flex;justify-content: space-around;
+}
+.LC{
+    color: #c9b49b;
+}
+.pd-img{
+    width: 350px;height: 280px;
+}
+.pd{
+    color: black;width: 300px;
+    background-color: #c9b49b;
+    width: fit-content;height: 450px;
+    transition: 0.5s ease-in;
+}
+.pd:hover{
+    scale: 1.05;
+    border: 2px solid transparent;
+}
+.pd-title{
+    margin-top: 5px;font-size: 18px;
+    margin-left: 9px;
+}
+.pd-descr{
+    height: 120px;
+}
+.pd-accroche{
+    font-size: 14px;margin-top: 18px;
+    margin-left: 9px;
+}
+.fil{
+    height: 1px;background-color: #2e2519;
+    margin-top: 15px;
+}
+.pd-price{
+    display: flex; align-items: center; text-align: center ;
+    color: rgb(13, 13, 13);margin-top: 10px;
+    border-radius:50% ;border: 2px solid #8b5a35;
+    width: 65px;height: 65px;margin-left: 20px;
+}
+.pd-foot{
+    display: flex;justify-content: space-between;
+}
+.pd-com{
+    margin-top: 30px;margin-right: 20px;
+    border: 1px solid transparent;height: 25px;
+    width: 120px;text-align: center;padding-top: 12px;
+    border-radius: 20px;font-size: 12px;
+    color: white;background-color: #c46f15;
+}
+.com-link{
+    color: white;
+}
 @media (max-width: 768px) {
   .menu {
     width: 100%;
