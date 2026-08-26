@@ -271,20 +271,36 @@ main{
 @media (max-width: 768px) {
   .menu {
     width: 100%;
-    margin-left: 0;
+    margin-left: 0px;
     flex-direction: column;
   }
   .menu-brunch-1,
   .menu-brunch-2,
   .menu-brunch-3 {
-    width: 100%;
+    width: 80%;
     height: auto;
-    flex-direction: column;
+    flex-direction: row;
+    margin-left: 47px;
   }
-  .hp {
-    margin-left: 0;
-    width: auto;
-  }
+ .imgbr{
+    width: 230px;
+ }
+ .br-title1,.br-title2,.br-title3{
+    font-size: 2rem;
+ }
+ .br-descr,.br-descr2,.br-descr3{
+    font-size: 13px;
+ }
+ .ing,.ing2,.ing3{
+    font-size: 14px;
+ }
+.foot,.foot1,.foot2{
+    width: 170px;font-size: 13px;
+    margin-left: 140px;
+}
+.foot2{
+    font-size: 12px;
+}
   .br1 {
     margin-left: 15px;
   }
@@ -313,4 +329,25 @@ main{
   .price {
     font-size: 1.8rem;
   }
+}
+@media (max-width: 768px){
+    .restname{
+        font-size: 1.1rem;
+    }
+    .li-head{
+        font-size: 1rem;
+    }
+    .navb{
+        margin-top: 12px;
+    }
+    header{
+        height: 400px;
+    }
+    .reserv{
+        font-size: 0.9rem;
+    }
+    .slogan{
+        padding-top: 220px;
+        font-size: 2.3rem;
+    }
 }
