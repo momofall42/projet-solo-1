@@ -282,7 +282,8 @@ main{
         margin-top: 12px;
     }
     header{
-        height: 400px;
+        min-height: 400px;height: auto;padding-bottom: 20px;
+        margin-top: 0;
     }
     .reservdiv{
         width:110px ;height: 25px;
@@ -292,8 +293,13 @@ main{
         font-size: 0.8rem;
     }
     .slogan{
-        padding-top: 220px;
-        font-size: 2.3rem;
+        padding-top: 40px;
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+        margin-left: 15px;
+    }
+    .head-foot{
+        margin-top: 10px;
     }
 }
 @media (max-width: 576px) {
