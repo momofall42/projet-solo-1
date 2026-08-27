@@ -268,7 +268,35 @@ main{
 .com-link{
     color: white;
 }
-@media (max-width: 768px) {
+@media (max-width: 576px){
+    .high{
+        margin-top: 0px;
+    }
+    .restname{
+        font-size: 0.8rem;
+    }
+    .li-head{
+        font-size: 0.68rem;
+    }
+    .navb{
+        margin-top: 12px;
+    }
+    header{
+        height: 400px;
+    }
+    .reservdiv{
+        width:110px ;height: 25px;
+        padding-top: 4px;
+    }
+    .reserv{
+        font-size: 0.8rem;
+    }
+    .slogan{
+        padding-top: 220px;
+        font-size: 2.3rem;
+    }
+}
+@media (max-width: 576px) {
   .menu {
     width: 100%;
     margin-left: 0px;
@@ -312,42 +340,4 @@ main{
     line-height: 24px;
   }
 }
-@media (max-width: 768px) {
-  .presentbr {
-    height: auto;
-    min-height: 400px;
-    padding: 30px 15px;
-  }
-  .present-brunch {
-    font-size: 2.2rem;
-    margin-bottom: 30px;
-  }
-  .accroche {
-    font-size: 1.1rem;
-    line-height: 24px;
-  }
-  .price {
-    font-size: 1.8rem;
-  }
-}
-@media (max-width: 768px){
-    .restname{
-        font-size: 1.1rem;
-    }
-    .li-head{
-        font-size: 1rem;
-    }
-    .navb{
-        margin-top: 12px;
-    }
-    header{
-        height: 400px;
-    }
-    .reserv{
-        font-size: 0.9rem;
-    }
-    .slogan{
-        padding-top: 220px;
-        font-size: 2.3rem;
-    }
-}
+
