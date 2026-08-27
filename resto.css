@@ -271,31 +271,31 @@ main{
 .com-link{
     color: white;
 }
-@media all and (max-width: 500px){
+@media all and (max-width: 430px){
  header{
     margin-top: -120px;height: 70vh;
  }
-
+ .high{
+    position: initial;
+ }
+.restnamediv{
+     margin-left: 10px;
+    margin-right: 19px;
+    
+}
 .restname{
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 .li-head{
-    font-size: 0.5rem;
+    display: none;
 }
 
-nav {
-    margin-left: 10px;margin-right: 10px;
-    margin-top: 29px;
-}
-.reservdiv{
-    height: 10px;width: 75px;padding-bottom: 11px;padding-top: 1px;
-    margin-top: 29px;
-}
-.reserv{
-    font-size: 0.8rem;text-align: center;
+
+.reservdiv{display: none;
 }
 .slogan{
-    font-size: 2.2rem;padding-top: 500px;
+    font-size: 1.75rem;padding-top: 380px;
+    margin-left: 10px;
 }
 .imgbr{
     width: 253px;height: 300px;
