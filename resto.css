@@ -2,6 +2,8 @@
     margin: 0;padding: 0;
     
 }
+
+
  header{
     height: 100vh;background-image:linear-gradient(to bottom,rgba(255,255,255,0),rgba(255,255,255,0.27)),
     url(img/1709772769_evasion-gastronomique-en-region-le-guide-ultime-des-tables-etoilees-a-explorer.jpg);
@@ -105,7 +107,7 @@ main{
 }
 .menu{
     border-radius: 16px;border: 2px solid transparent;
-    display: flex; margin-bottom: 120px;width: 1200px;margin-left: 100px;
+    display: flex; margin-bottom: 120px;;margin-left: 100px;
     
     
 }
@@ -270,33 +272,48 @@ main{
     color: white;
 }
 @media all and (max-width: 500px){
-    body{
-        width: fit-content;
-    }
-    .high{justify-content: initial}
+ header{
+    margin-top: -120px;height: 70vh;
+ }
+
 .restname{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 .li-head{
-    font-size: 0.6rem;
+    font-size: 0.5rem;
 }
-header{
-    background-image: url(img/1709772769_evasion-gastronomique-en-region-le-guide-ultime-des-tables-etoilees-a-explorer.jpg);
-    background-size: contain;
-}
+
 nav {
-    margin-left: 120px;margin-right: 120px;
-    margin-top: 23px;
+    margin-left: 10px;margin-right: 10px;
+    margin-top: 29px;
+}
+.reservdiv{
+    height: 10px;width: 75px;padding-bottom: 11px;padding-top: 1px;
+    margin-top: 29px;
+}
+.reserv{
+    font-size: 0.8rem;text-align: center;
+}
+.slogan{
+    font-size: 2.2rem;padding-top: 500px;
 }
 .imgbr{
-    width: 300px;height: 300px;
+    width: 253px;height: 300px;
 }
 .menu{
     flex-direction: column;
     width: 50%;
 }
+.accroche{
+    font-size: 1.17rem;
+}
+.br-title1,.br-title2,.br-title3{
+    font-size: 1rem;
+}
 .menu-pd{
     flex-direction: column;
 }
+.foot,.foot1,.foot2{
+    display: none;
 }
-
+}
